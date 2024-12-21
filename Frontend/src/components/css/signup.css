@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", serif;
+}
+.sign-up{
+    font-size: 32px;
+    font-weight: bold;
+}
+.container {
+  min-height: 100vh; /* ใช้เพื่อให้ container ครอบคลุมทั้งหน้าจอ */
+  /* background: rgb(172, 207, 145);
+  background: linear-gradient(
+    163deg,
+    rgba(172, 207, 145, 1) 42%,
+    rgba(158, 181, 116, 1) 69%,
+    rgba(144, 155, 85, 1) 97%
+  ); */
+}
+
+.box {
+  background-color: #ffffff;
+  height: 550px;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form{
+    margin-right: 40px;
+    width: 500px;
+}
+.image img {
+    border-radius: 10%;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+.button-signup{
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    background-color: #C1D452;
+    border: 1.5px solid black;
+    font-size: 24px;
+}
+.google{
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 220px;
+  font-weight: bold;
+}
